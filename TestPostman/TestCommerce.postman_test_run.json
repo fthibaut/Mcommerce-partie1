@@ -1,0 +1,74 @@
+{
+	"id": "5be11697-5407-4cce-b0a0-56cbd3da2784",
+	"name": "TestCommerce",
+	"allTests": [],
+	"timestamp": "2020-01-06T17:45:50.169Z",
+	"collection_id": "3c6a59cd-3f77-40ed-a98d-565a6e919954",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "3c6a59cd-3f77-40ed-a98d-565a6e919954",
+		"name": "TestCommerce",
+		"order": [
+			"67bff7d4-4e90-4f68-ad00-e7351d019506"
+		],
+		"folders_order": [],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:9090/produits/marge/3",
+			"id": "67bff7d4-4e90-4f68-ad00-e7351d019506",
+			"url": "http://localhost:9090/produits/marge/3",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"8"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "8",
+			"totalRequestTime": "8",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 8,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:9090/produits/marge/3",
+			"id": "67bff7d4-4e90-4f68-ad00-e7351d019506",
+			"url": "http://localhost:9090/produits/marge/3",
+			"time": "2020-01-06T17:45:50.169Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
